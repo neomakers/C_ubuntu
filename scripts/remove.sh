@@ -1,4 +1,4 @@
-rm *.i
-rm *.s
-rm *.o
-rm *.out
+rm ./build/*.i
+rm ./build/*.s
+rm ./build/*.o
+rm ./build/*.out
