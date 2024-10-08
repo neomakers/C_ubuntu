@@ -4,9 +4,9 @@
 mkdir -p test
 
 # 生成指定数量的测试文件
-for i in {1..5}; do
-    # 随机生成数组长度（5到100之间）
-    array_length=$((RANDOM % 96 + 5))
+for i in {1..10}; do
+    # 随机生成数组长度（10到100之间）
+    array_length=$((RANDOM % 81 + 10))
 
     # 生成无序数组，范围从1到100，并使用空格分隔
     random_array=$(shuf -i 1-100 -n $array_length | tr '\n' ' ')
